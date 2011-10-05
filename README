@@ -1,0 +1,6 @@
+It's very simple batch sfv-file checker
+
+It goes down the tree of ROOT, finds *.sfv and check them with "cksfv" (another python tool from repo).
+If file goes through check with no errors - whole folder moved to AIM location.
+
+Useful to run from cron, if you have download client with dc++, torrent, ftp or whatever.
